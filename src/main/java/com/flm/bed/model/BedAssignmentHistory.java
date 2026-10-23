@@ -48,4 +48,11 @@ public class BedAssignmentHistory {
 		this.vacatedAt = vacatedAt;
 	}
 
+	public BedAssignmentHistory(Bed bed, Long patientId, LocalDateTime assignedAt) {
+		super();
+		this.bed = bed;
+		this.patientId = patientId;
+		this.assignedAt = assignedAt;
+	}
+
 }
